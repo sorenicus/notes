@@ -1,0 +1,7 @@
+<h1>Notes <a routerLink="/createnote">CREATE</a></h1>
+
+<div>
+  <div *ngFor="let note of notes; let i = index">
+    <label>{{i + 1}}. {{note.text}}</label><button (click)="deleteNote(note)">DELETE</button><a routerLink="/note/{{note.id}}">EDIT</a>
+  </div>
+</div>
