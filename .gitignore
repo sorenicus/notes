@@ -232,5 +232,3 @@ _Pvt_Extensions
 .fake/
 
 *.sqlite
-
-.angular/*
